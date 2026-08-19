@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4148227185987862934
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5484054516977471740}
+  - component: {fileID: 3983410428175580578}
+  m_Layer: 0
+  m_Name: FactoryGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5484054516977471740
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4148227185987862934}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 38.02, y: 0.46, z: 36.39}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3983410428175580578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4148227185987862934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa3be5cdc301e1a44b92aaf33d3aec5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FactoryFirstFloorGenerator
+  wallHeight: 3.2
+  wallThickness: 0.25
+  floorThickness: 0.12
+  floorMaterial: {fileID: 2100000, guid: ddb0f1d7623b53d4f9b2ec861ed870c7, type: 2}
+  wallMaterial: {fileID: 2100000, guid: ddb0f1d7623b53d4f9b2ec861ed870c7, type: 2}
+  doorMaterial: {fileID: 2100000, guid: bb85753e6d00b6d4baeb926207666f70, type: 2}
+  machineMaterial: {fileID: 2100000, guid: bb85753e6d00b6d4baeb926207666f70, type: 2}
+  storageMaterial: {fileID: 2100000, guid: bb85753e6d00b6d4baeb926207666f70, type: 2}
+  safetyMaterial: {fileID: 2100000, guid: bb85753e6d00b6d4baeb926207666f70, type: 2}
+  elevatorMaterial: {fileID: 2100000, guid: bb85753e6d00b6d4baeb926207666f70, type: 2}
+  stairMaterial: {fileID: 2100000, guid: bb85753e6d00b6d4baeb926207666f70, type: 2}
+  textMaterial: {fileID: 2100000, guid: bb85753e6d00b6d4baeb926207666f70, type: 2}

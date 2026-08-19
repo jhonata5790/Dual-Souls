@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73310798ab8a7584084bd1e359a41f75, type: 3}
+  m_Name: Atlas_Eirden
+  m_EditorClassIdentifier: 
+  entryTitle: Vilarejo de Eirden
+  category: 3
+  zunnaNotes: Eirden parece pequena demais para carregar tantos caminhos. Mas talvez
+    seja por isso que todo mundo passa por aqui.
+  illustration: {fileID: 0}
+  dangerLevel: 1
+  element: Neutro
+  region: "Entre a Rota do Cristal e a Rota da Fundi\xE7\xE3o"
